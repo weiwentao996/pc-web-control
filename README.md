@@ -14,9 +14,30 @@ This Go application creates a simple web interface to control the mouse and keyb
 - Go 1.16+ (for `embed` functionality)
 - Robotgo library (install via `go get github.com/go-vgo/robotgo`)
 
-## Installation
+## How to Use
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/weiwentao996/pc-web-control.git
-2. Build the program using Go.
+1.Download the [Application](https://github.com/weiwentao996/pc-web-control/releases/download/release-v1.0.0/pc-web-control-win.zip)
+
+Get the PC Web Control zip package.
+
+
+2.Unzip and Run
+
+Extract the downloaded package and run the executable program included.
+
+
+3.Access the Web Interface
+
+Find your computer's local IP address, then, using your mobile phone (which must be on the same network as your computer), visit http://yourIP:8080 in a browser. You’ll be able to interact with the control interface.
+![img.png](img.png)
+
+
+
+
+
+
+
+
+
+
+
