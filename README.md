@@ -19,3 +19,4 @@ This Go application creates a simple web interface to control the mouse and keyb
 1. Clone the repository:
    ```bash
    git clone https://github.com/weiwentao996/pc-web-control.git
+2. Build the program using Go.
