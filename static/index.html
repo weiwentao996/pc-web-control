@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="joystick" id="joystick">
+        <div class="stick" id="stick"></div>
+    </div>
+    <div class="grid-container">
+        <div><button onclick="fetch('/click?dir=left')">Left Click</button></div>
+        <div class="item2"><button onclick="fetch('/key?dir=up')">↑</button></div>
+        <div class="item3"><button onclick="fetch('/click?dir=right')">Right Click</button></div>
+        <div class="item4"><button onclick="fetch('/key?dir=left')">←</button></div>
+        <div class="item5"><button onclick="fetch('/key?dir=down')">↓</button></div>
+        <div class="item6"><button onclick="fetch('/key?dir=right')">→</button></div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
